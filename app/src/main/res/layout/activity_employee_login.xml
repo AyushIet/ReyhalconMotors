@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/employee_login_linearLayout1"
+    style="@style/my_linear_layout_style">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/employee_login_card_layout1"
+        style="@style/my_card_view_style"
+        android:layout_height="200dp">
+
+        <LinearLayout
+            android:id="@+id/employee_login_linearLayout2"
+            style="@style/my_linear_layout_style">
+
+            <EditText
+                android:id="@+id/employee_login_email"
+                style="@style/my_edit_text_style"
+                android:hint="@string/hint_email"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/employee_login_password"
+                style="@style/my_edit_text_style"
+                android:hint="@string/hint_password"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/employee_login_button_submit"
+                style="@style/my_button_style"
+                android:onClick="login"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/employee_new_user_text"
+                style="@style/my_text_view_style"
+                android:onClick="showSignUpPage"
+                android:layout_gravity="center" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView style="@style/my_card_view_style"
+        android:layout_height="350dp"
+        android:visibility="gone"
+        android:id="@+id/employee_login_card_layout2">
+
+        <LinearLayout style="@style/my_linear_layout_style">
+            <EditText
+                style="@style/my_edit_text_style"
+                android:id="@+id/employee_login_name"
+                android:hint="Name"/>
+            <EditText
+                android:id="@+id/employee_login_email2"
+                style="@style/my_edit_text_style"
+                android:hint="@string/hint_email"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/employee_login_password2"
+                style="@style/my_edit_text_style"
+                android:hint="@string/hint_password"
+                android:inputType="textPassword" />
+            <EditText
+                android:id="@+id/employee_login_password3"
+                style="@style/my_edit_text_style"
+                android:hint="@string/re_enter_password"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/employee_login_button_login"
+                style="@style/my_button_style"
+                android:text="@string/signUp"
+                android:onClick="signUp"
+                android:layout_gravity="center" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/admin_register_employee_linear_layout_outer"
+    style="@style/my_linear_layout_style">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/admin_register_employee_card_view1"
+        style="@style/my_card_view_style"
+        app:cardCornerRadius="25dp">
+
+        <LinearLayout
+            android:id="@+id/admin_register_employee_linear_layout1"
+            style="@style/my_linear_layout_style">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/admin_register_employee_text_input_layout1"
+                style="@style/my_text_input_layout_style">
+
+                <EditText
+                    android:id="@+id/admin_register_employee_name_edit_text"
+                    style="@style/my_edit_text_style" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/admin_register_employee_text_input_layout2"
+                style="@style/my_text_input_layout_style">
+
+                <EditText
+                    android:id="@+id/admin_register_employee_contact_edit_text"
+                    style="@style/my_edit_text_style"
+                    android:maxLength="10"
+                    android:inputType="phone"
+                    android:hint="@string/edit_text_contact_fragment1" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/admin_register_employee_card_view2"
+        style="@style/my_card_view_style"
+        android:visibility="gone"
+        app:cardCornerRadius="25dp">
+
+        <LinearLayout
+            android:id="@+id/admin_register_employee_linear_layout2"
+            style="@style/my_linear_layout_style">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/admin_register_employee_text_input_layout3"
+                style="@style/my_text_input_layout_style">
+
+                <EditText
+                    android:id="@+id/admin_register_employee_salary_edit_text"
+                    style="@style/my_edit_text_style"
+                    android:inputType="numberDecimal"
+                    android:hint="@string/edit_text_salary_fragment2" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/admin_register_employee_text_input_layout4"
+                style="@style/my_text_input_layout_style">
+
+                <Spinner
+                    android:id="@+id/admin_register_employee_spinner"
+                    style="@style/my_spinner_style" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/admin_register_employee_linear_layout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/admin_register_employee_image_icon"
+            style="@style/my_image_view_style" />
+
+        <ImageView
+            android:id="@+id/admin_register_employee_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/employee"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="In Time"
+            android:visibility="gone"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/admin_register_employee_in_time"/>
+    </LinearLayout>
+
+    <android.support.design.widget.CoordinatorLayout style="@style/my_coordinator_layout_style">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/admin_register_employee_fab"
+            android:visibility="gone"
+            style="@style/my_fab_style" />
+    </android.support.design.widget.CoordinatorLayout>
+</LinearLayout>

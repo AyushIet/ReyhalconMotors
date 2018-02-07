@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "481741511023",
+    "firebase_url": "https://employeemanagementsystem-faf5f.firebaseio.com",
+    "project_id": "employeemanagementsystem-faf5f",
+    "storage_bucket": "employeemanagementsystem-faf5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481741511023:android:9c0f04f9f5c707da",
+        "android_client_info": {
+          "package_name": "com.reyhalconmotors"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "481741511023-nl7mgjkdglk5sj5c2skelr932o7pbpv2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.reyhalconmotors",
+            "certificate_hash": "8c56f9604e1fae5c807c095a8adb757e5638212b"
+          }
+        },
+        {
+          "client_id": "481741511023-o04mt6n2rdgt8ma8l8edbt8vpruj2he2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDggg_M6X1IEN9zV-g9x5FyGf24XLlKN1s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "481741511023-o04mt6n2rdgt8ma8l8edbt8vpruj2he2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

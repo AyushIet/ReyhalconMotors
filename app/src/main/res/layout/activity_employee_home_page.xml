@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/employee_home_page_linear_layout1"
+    style="@style/my_linear_layout_style">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/employee_home_page_card_view1"
+        style="@style/my_card_view_style"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/employee_home_page_linear_layout2"
+            style="@style/my_linear_layout_style"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/employee_home_page_employee_pic"
+                style="@style/my_image_view_style"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="10dp" />
+
+            <LinearLayout
+                android:id="@+id/employee_home_page_linear_layout3"
+                style="@style/my_linear_layout_style">
+
+                <TextView
+                    android:id="@+id/employee_home_page_name"
+                    style="@style/my_text_view_style1"
+                    android:text="@string/name" />
+
+                <TextView
+                    android:id="@+id/employee_home_page_contact_no"
+                    style="@style/my_text_view_style1"
+                    android:text="Contact Number" />
+
+                <TextView
+                    android:id="@+id/employee_home_page_designation"
+                    style="@style/my_text_view_style1"
+                    android:text="Salary" />
+
+                <TextView
+                    android:id="@+id/employee_home_page_salary"
+                    style="@style/my_text_view_style1"
+                    android:text="Designation" />
+                <TextView
+                    style="@style/my_text_view_style1"
+                    android:id="@+id/employee_home_page_date"/>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp">
+
+        <LinearLayout style="@style/my_linear_layout_style"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp">
+            <LinearLayout
+                android:layout_marginBottom="5dp"
+               style="@style/my_linear_layout_style"
+                android:id="@+id/employee_home_page_linear_layout4"
+                android:orientation="horizontal">
+                <Button
+                    style="@style/my_button_style1"
+                    android:onClick="attendence"
+                    android:layout_marginRight="55dp"
+                    android:text="@string/attendence"/>
+                <Button
+                    style="@style/my_button_style1"
+                    android:onClick="update"
+                    android:text="@string/update"/>
+            </LinearLayout>
+            <LinearLayout
+                style="@style/my_linear_layout_style"
+                android:id="@+id/employee_home_page_linear_layout5"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_marginRight="55dp"
+                    android:text="@string/salary"
+                    android:onClick="salary"
+
+                    style="@style/my_button_style1"/>
+                <Button
+                    style="@style/my_button_style1"
+                    android:onClick="delete"
+                    android:text="@string/delete"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

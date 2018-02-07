@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ReyhalconMotors</string>
+    <!--AdminRegisterEmployee-->
+
+    <string name="edit_text_name_fragment1">Name</string>
+    <string name="edit_text_contact_fragment1">Contact No.</string>
+    <string name="edit_text_salary_fragment2">Salary</string>
+    <string name="edit_text_intime_fragment2">In Time</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="my_spinner_item">
+        <item>Director</item>
+        <item>Chief Director</item>
+        <item>Marketing Officer</item>
+        <item>Employee</item>
+    </string-array>
+    <!--EmployeeLoginActivity-->
+    <string name="submit">Login</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_password">Password</string>
+    <string name="new_user_register_text">New User Register here?</string>
+    <string name="re_enter_password">Re-Enter Password</string>
+    <string name="signUp">Sign Up</string>
+    <!--View Employee Activity-->
+    <string name="view_employee_by">View Employee By</string>
+    <string-array name="view_employee_way">
+        <item>ID Number</item>
+        <item>Name</item>
+        <item>All</item>
+    </string-array>
+    <!--EmployeeHomePageActivity-->
+    <string name="attendence">Attendence</string>
+    <string name="update">UpDate</string>
+    <string name="salary">Salary</string>
+    <string name="delete">Delete</string>
+</resources>

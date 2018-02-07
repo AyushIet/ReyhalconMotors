@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/my_linear_layout_style"
+    android:id="@+id/view_employee_linear_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center">
+    <EditText
+       style="@style/my_edit_text_style"
+        android:ems="10"
+        android:visibility="gone"
+        android:id="@+id/edit_text_taking_id_name"/>
+    <Button
+        style="@style/my_button_style1"
+        android:onClick="showById"
+        android:visibility="gone"
+        android:id="@+id/button_view_employee"/>
+    <Button
+        style="@style/my_button_style"
+        android:onClick="showByName"
+        android:visibility="gone"
+        android:id="@+id/button_view_employee_name"/>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/recycler_view_show_all"></android.support.v7.widget.RecyclerView>
+</LinearLayout>
